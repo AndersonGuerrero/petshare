@@ -1,0 +1,93 @@
+body{
+	height: 100vh !important;
+    max-width: 500px !important;
+    width: 100% !important;
+    background: rgb(254, 254, 254) !important;
+    margin: 0px auto !important;
+    overscroll-behavior: none !important;
+    font-family: cursive !important;
+}
+
+#app{
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 10px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding-bottom: 10px;
+}
+.contentDiv{
+	margin-bottom: 45px;
+}
+
+.listPhoto{
+	display: inline;
+	margin-bottom: 45px;
+}
+.liPhoto{
+	margin: 10px 10px 0px;
+}
+
+article{
+	min-height: 270px;
+}
+
+.photo{
+	display: block;
+    height: 0px;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 56.25% 0px 0px;
+}
+
+
+.photo-img{
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 14px;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    animation: 2s ease 0s 1 normal none running dtZTXM;
+}
+
+
+.btn-like{
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 8px;
+
+    background: transparent;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+}
+
+.btn-like svg {
+    margin: 4px;
+}
+
+.header{
+	display: flex;
+    justify-content: space-between;
+}
+
+.app-name{
+	font-size: 33px;
+    color: #2196f3;
+}
+
+.btn-header{
+	text-decoration: none;
+    background-color: #2196F3;
+    padding: 10px;
+    border-radius: 2px;
+    color: #fff !important;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+}
